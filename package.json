@@ -11,10 +11,16 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "nuxt": "2.8.1",
     "vue-videobg": "2.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "@babel/core": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "babel-loader": "8.0.6",
+    "nodemon": "^1.18.9",
+    "vue-loader": "15.7.0",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "4.35.0"
   }
 }
