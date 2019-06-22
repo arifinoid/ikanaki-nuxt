@@ -45,17 +45,4 @@ export default {
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-
-.links {
-  padding-top: 15px;
-}
-
-.VideoBg {
-  min-height: 640px;
-}
-
-.VideoBg__content {
-  text-align: center;
-  background-color: rgba(52, 72, 92, 0.7);
-}
 </style>
