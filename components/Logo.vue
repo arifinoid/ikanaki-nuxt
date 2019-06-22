@@ -14,7 +14,7 @@
 .ikanaki {
   background-repeat: no-repeat;
   height: 350px;
-  background-image: url("../assets/ikanaki.png");
+  background-image: url("../demo/assets/ikanaki.png");
   background-size: cover;
 }
 </style>
