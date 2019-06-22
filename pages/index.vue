@@ -1,25 +1,15 @@
 <template>
   <div class="container" id="demo">
-    <video-bg :sources="['demo/assets/scuba-diving.mp4']" img="demo/assets/fish-and-ocean.jpg">
-      <div>
-        <Logo/>
-        <h1 class="title">We’re performing an awesome app at the moment.</h1>
-        <h2 class="subtitle">So stay tuned!</h2>
-      </div>
-    </video-bg>
+    <div>
+      <Logo/>
+      <h1 class="title">We’re performing an awesome app at the moment.</h1>
+      <h2 class="subtitle">So stay tuned!</h2>
+    </div>
   </div>
 </template>
 
-<script src="../demo/build/build.js"></script>
 <script>
 import Logo from "~/components/Logo.vue";
-import Vue from "vue/dist/vue.common";
-import VideoBg from "../components/VideoBackground.vue";
-
-new Vue({
-  el: "#demo",
-  components: { VideoBg }
-});
 
 export default {
   components: {
